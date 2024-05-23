@@ -3175,3 +3175,14 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2024-05-21 15:38:40 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
 2024-05-21 15:38:40 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2024-05-21 15:38:40 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2024-05-21 22:23:16 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2024-05-21 22:23:18 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2024-05-22 18:02:35 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2024-05-22 18:02:35 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.59 ----------
+
+2024-05-22 18:02:35 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2024-05-22 18:02:35 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2024-05-22 18:02:36 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2024-05-22 18:02:36 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2024-05-22 18:02:36 INFO  ApacheHttpClient.startGA(36) - GAService started.
