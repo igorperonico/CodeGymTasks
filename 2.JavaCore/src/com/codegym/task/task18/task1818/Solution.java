@@ -18,13 +18,13 @@ public class Solution {
 
         /*Write the contents of the second file to the first file,
         and then append the contents of the third file to the first file.*/
-        try (FileInputStream fileInputStream2 = new FileInputStream(file2);
-             FileInputStream fileInputStream3 = new FileInputStream(file3);
+        try (FileInputStream fileInputStream = new FileInputStream(file2);
+             FileInputStream fileInputStream2 = new FileInputStream(file3);
              FileOutputStream fileOutputStream1 = new FileOutputStream(file1, true)) {
+            while (fileInputStream.available() > 0)
+                fileOutputStream1.write(fileInputStream.read());
             while (fileInputStream2.available() > 0)
                 fileOutputStream1.write(fileInputStream2.read());
-            while (fileInputStream3.available() > 0)
-                fileOutputStream1.write(fileInputStream3.read());
         }
     }
 }
